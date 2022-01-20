@@ -1,0 +1,106 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+}
+:root {
+  --header-text-color: #212121;
+  --main-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --fourt-text-color: #ffffff;
+  --title-color: #000000;
+  --footer-color: rgba(255, 255, 255, 0.6);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.header-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--header-text-color);
+}
+
+.header-infoto {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.header-infoto:hover,
+.header-infoto:focus {
+  color: var(--main-text-color);
+}
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--main-text-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--main-text-color);
+}
+
+.main-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  color: var(--header-text-color);
+}
+.main-btn:hover,
+.main-btn:focus {
+  color: var(--accent-text-color);
+}
+.footer-logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: var(--accent-text-color);
+}
+
+.address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: var(--fourt-text-color);
+}
+.button {
+  color: var(--header-text-color);
+  cursor: pointer;
+}
+
+.header-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--footer-color);
+}
+
+.header-infoto:hover,
+.header-infoto:focus {
+  color: var(--footer-color);
+}
