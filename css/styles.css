@@ -16,7 +16,7 @@ body {
 .link {
   text-decoration: none;
 }
-.header-list {
+.header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -62,6 +62,22 @@ body {
 .main-btn:focus {
   color: var(--accent-text-color);
 }
+.hero-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--header-text-color);
+}
+.hero-after-title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
 .footer-logo {
   font-weight: bold;
   font-size: 26px;
