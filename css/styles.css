@@ -21,7 +21,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--header-text-color);
 }
 
@@ -42,7 +41,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--main-text-color);
 }
 .header-tel:hover,
@@ -55,7 +53,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-
   color: var(--header-text-color);
 }
 .main-btn:hover,
@@ -83,9 +80,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-
   letter-spacing: 0.03em;
-
   color: var(--accent-text-color);
 }
 
@@ -94,9 +89,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-
   letter-spacing: 0.03em;
-
   color: var(--fourt-text-color);
 }
 .button {
