@@ -16,14 +16,17 @@ body {
 .link {
   text-decoration: none;
 }
-.header-link {
+.header-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-text-color);
 }
-
+.header-list:hover,
+.header-list:focus {
+  color: var(--accent-text-color);
+}
 .header-infoto {
   font-weight: 500;
   font-size: 14px;
