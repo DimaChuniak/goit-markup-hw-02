@@ -23,10 +23,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--header-text-color);
 }
-.header-list:hover,
-.header-list:focus {
-  color: var(--accent-text-color);
-}
+
 .header-infoto {
   font-weight: 500;
   font-size: 14px;
@@ -37,7 +34,7 @@ body {
 
 .header-infoto:hover,
 .header-infoto:focus {
-  color: var(--main-text-color);
+  color: var(--accent-text-color);
 }
 .header-tel {
   font-weight: 500;
@@ -52,6 +49,21 @@ body {
 }
 
 .main-btn {
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--fourt-text-color);
+}
+.main-btn:hover,
+.main-btn:focus {
+  color: var(--accent-text-color);
+}
+
+.main-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -62,17 +74,65 @@ body {
 .main-btn:focus {
   color: var(--accent-text-color);
 }
-.hero-title {
+
+.about-pre-title {
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--header-text-color);
+}
+
+.abour-after-title {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.about-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--header-text-color);
+}
+.masters-title {
   font-style: normal;
-  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-text-color);
+}
+
+.master-item-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-text-color);
+}
+.en {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.hero-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 
   color: var(--header-text-color);
 }
+
 .hero-after-title {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -80,7 +140,6 @@ body {
 }
 
 .footer-logo {
-  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -88,7 +147,6 @@ body {
 }
 
 .address {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -110,10 +168,10 @@ body {
 }
 .header-tel:hover,
 .header-tel:focus {
-  color: var(--footer-color);
+  color: var(--accent-text-color);
 }
 
 .header-infoto:hover,
 .header-infoto:focus {
-  color: var(--footer-color);
+  color: var(--accent-text-color);
 }
