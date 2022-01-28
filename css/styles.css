@@ -49,21 +49,6 @@ body {
 }
 
 .main-btn {
-  font-size: 16px;
-  line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  color: var(--fourt-text-color);
-}
-.main-btn:hover,
-.main-btn:focus {
-  color: var(--accent-text-color);
-}
-
-.main-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -97,20 +82,16 @@ body {
   color: var(--header-text-color);
 }
 .masters-title {
-  font-style: normal;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-text-color);
 }
 
 .master-item-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-text-color);
 }
