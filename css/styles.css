@@ -10,21 +10,37 @@ body {
   --title-color: #000000;
   --footer-color: rgba(255, 255, 255, 0.6);
 }
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  text-decoration: none;
+}
 .list {
   list-style: none;
 }
-.link {
-  text-decoration: none;
+
+.main-section {
+  background-color: #2f303a;
 }
-.header-list {
+.header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-text-color);
 }
-
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-text-color);
+}
+span {
+  color: black;
+}
 .header-infoto {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -37,6 +53,7 @@ body {
   color: var(--accent-text-color);
 }
 .header-tel {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -47,13 +64,19 @@ body {
 .header-tel:focus {
   color: var(--main-text-color);
 }
-.main-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
 
-  letter-spacing: 0.03em;
-  color: var(--header-text-color);
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--fourt-text-color);
+}
+.main-btn {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--fourt-text-color);
 }
 
 .main-btn {
@@ -89,6 +112,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--header-text-color);
 }
+
 .masters-title {
   font-size: 36px;
   line-height: 1.16;
@@ -104,11 +128,9 @@ body {
   color: var(--header-text-color);
 }
 .en {
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
@@ -136,10 +158,12 @@ body {
 }
 
 .address {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: var(--fourt-text-color);
 }
 .button {
