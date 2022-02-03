@@ -183,8 +183,3 @@ span {
 .header-tel:focus {
   color: var(--accent-text-color);
 }
-
-.header-infoto:hover,
-.header-infoto:focus {
-  color: var(--accent-text-color);
-}
