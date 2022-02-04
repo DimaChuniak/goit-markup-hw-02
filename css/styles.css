@@ -27,6 +27,9 @@ a {
 .footer-list {
   background-color: #2f303a;
 }
+.title-btn {
+  background-color: #2196f3;
+}
 
 .header-logo {
   font-family: Raleway;
@@ -83,16 +86,22 @@ span {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--fourt-text-color);
 }
-.main-btn {
+.title-btn {
+  font-family: Roboto;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--fourt-text-color);
 }
-
+.title-btn:hover,
+.title-btn:focus {
+  color: var(--header-text-color);
+}
 .main-btn {
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -111,7 +120,8 @@ span {
   color: var(--header-text-color);
 }
 
-.abour-after-title {
+.about-after-title {
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -130,7 +140,13 @@ span {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: var(--header-text-color);
+  color: var(--main-text-color);
+}
+.masters {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .master-item-title {
